@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Network - Protect Earth</title>
+    <title>Guardians of Life - Biodiversity Conservation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -14,11 +14,11 @@
         }
 
         :root {
-            --primary: #2e7d32;
-            --secondary: #4caf50;
-            --accent: #8bc34a;
-            --light: #e8f5e9;
-            --dark: #1b5e20;
+            --primary: #004d40; /* Deep Teal */
+            --secondary: #26a69a; /* Medium Cyan */
+            --accent: #ffb300; /* Amber */
+            --light: #e0f2f1; /* Light Cyan */
+            --dark: #00251a; /* Very Dark Teal */
             --text: #333333;
             --white: #ffffff;
         }
@@ -101,7 +101,8 @@
         }
 
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80');
+            /* New image for biodiversity: lush forest or diverse wildlife */
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1518548419970-d8e5347e1e11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
             background-size: cover;
             background-position: center;
             height: 80vh;
@@ -499,30 +500,29 @@
     <header>
         <div class="container nav-container">
             <div class="logo">
-                <i class="fas fa-seedling"></i>
-                <span>Green Network</span>
+                <i class="fas fa-leaf"></i>
+                <span>Guardians of Life</span>
             </div>
             <nav>
-                <div class="mobile-menu">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#initiatives">Initiatives</a></li>
-                    <li><a href="#get-involved">Get Involved</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul id="nav-links">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#initiatives">保护行动</a></li>
+                    <li><a href="#contact">联系我们</a></li>
                 </ul>
             </nav>
+            <div class="mobile-menu" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container hero-content">
-            <h1>Protect Our Planet, Preserve Our Future</h1>
-            <p>Join the global movement to create a sustainable world through conservation, education, and community action.</p>
-            <a href="#get-involved" class="btn">Join Our Network</a>
+            <h1>守护生命的多样性</h1>
+            <p>生物多样性是地球健康的基石。加入我们，保护珍稀物种和生态系统，共创一个生机勃勃的未来。</p>
+            <a href="#initiatives" class="btn">了解我们的行动</a>
         </div>
     </section>
 
@@ -530,193 +530,190 @@
     <section id="about">
         <div class="container">
             <div class="section-title">
-                <h2>About Green Network</h2>
-                <p>We are a global community dedicated to environmental protection and sustainable development.</p>
+                <h2>什么是生物多样性？</h2>
+                <p>生物多样性包括基因、物种和生态系统三个层次的变异性。它是地球上所有生命形式的集合，为人类提供了食物、清洁的水源、药物和气候调节等不可替代的服务。</p>
             </div>
             <div class="about-content">
                 <div class="about-img">
-                    <img src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Team planting trees">
+                    <img src="https://images.unsplash.com/photo-1535100129724-f44537169426?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Diverse ecosystem">
                 </div>
                 <div class="about-text">
-                    <h3>Our Mission</h3>
-                    <p>Green Network is committed to creating a sustainable future by protecting natural ecosystems, promoting renewable energy, and empowering communities to take environmental action.</p>
-                    <p>Founded in 2010, we've grown from a small grassroots organization to an international network with over 50,000 members across 120 countries.</p>
-                    <p>Our approach combines scientific research, community engagement, and policy advocacy to address the most pressing environmental challenges of our time.</p>
-                    <a href="#" class="btn">Learn More</a>
+                    <h3>危机四伏的地球生命</h3>
+                    <p>由于栖息地破坏、气候变化、污染和过度开发，地球正面临着第六次物种大灭绝的威胁。保护生物多样性不仅是道德责任，更是维护人类自身生存和发展的关键。</p>
+                    <p>我们致力于通过科学研究、政策倡导和社区参与，扭转物种加速灭绝的趋势，恢复退化的生态系统，确保地球生态系统的健康与韧性。</p>
                 </div>
             </div>
             <div class="stats">
                 <div class="stat-item">
-                    <i class="fas fa-tree"></i>
-                    <h3 class="counter" data-target="2500000">0</h3>
-                    <p>Trees Planted</p>
+                    <i class="fas fa-bug"></i>
+                    <h3 class="counter">100万+</h3>
+                    <p>面临灭绝威胁的物种数量</p>
                 </div>
                 <div class="stat-item">
-                    <i class="fas fa-users"></i>
-                    <h3 class="counter" data-target="50000">0</h3>
-                    <p>Active Members</p>
+                    <i class="fas fa-tree"></i>
+                    <h3 class="counter">31%</h3>
+                    <p>全球森林覆盖率</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-fish"></i>
+                    <h3 class="counter">60%</h3>
+                    <p>自1970年以来野生动物种群平均下降</p>
                 </div>
                 <div class="stat-item">
                     <i class="fas fa-globe-americas"></i>
-                    <h3 class="counter" data-target="120">0</h3>
-                    <p>Countries Reached</p>
-                </div>
-                <div class="stat-item">
-                    <i class="fas fa-recycle"></i>
-                    <h3 class="counter" data-target="1500">0</h3>
-                    <p>Cleanup Projects</p>
+                    <h3 class="counter">30%</h3>
+                    <p>到2030年需保护的陆地和海洋面积</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Initiatives Section -->
-    <section class="initiatives" id="initiatives">
+    <section id="initiatives" class="initiatives">
         <div class="container">
             <div class="section-title">
-                <h2>Our Initiatives</h2>
-                <p>Discover the key programs and projects we're implementing to protect our planet.</p>
+                <h2>我们的生物多样性保护行动</h2>
+                <p>我们正在全球范围内开展多项关键项目，以保护濒危物种、恢复重要栖息地并推动可持续发展。</p>
             </div>
             <div class="initiatives-grid">
                 <div class="initiative-card">
                     <div class="initiative-img">
-                        <img src="https://dialogue.earth/content/uploads/2021/04/lessons-from-the-rush-to-reforest-china-dialogue-2400x1599.jpg" alt="Reforestation">
+                        <img src="https://images.unsplash.com/photo-1517423738875-5ceee1db5df9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Forest conservation">
                     </div>
                     <div class="initiative-content">
-                        <h3>Global Reforestation</h3>
-                        <p>Planting millions of trees worldwide to restore ecosystems, combat climate change, and protect biodiversity.</p>
-                        <a href="#" class="btn">Learn More</a>
+                        <h3>栖息地恢复项目</h3>
+                        <p>通过植树造林、湿地重建和珊瑚礁修复，我们正在恢复退化的生态系统，为野生动物提供安全的家园。</p>
+                        <a href="#" class="btn btn-small">了解更多</a>
                     </div>
                 </div>
                 <div class="initiative-card">
                     <div class="initiative-img">
-                        <img src="https://images.unsplash.com/photo-1621451537084-482c73073a0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Ocean Conservation">
+                        <img src="https://images.unsplash.com/photo-1547476547-80f6e1102e2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Endangered species monitoring">
                     </div>
                     <div class="initiative-content">
-                        <h3>Ocean Conservation</h3>
-                        <p>Protecting marine ecosystems, reducing plastic pollution, and promoting sustainable fishing practices.</p>
-                        <a href="#" class="btn">Learn More</a>
+                        <h3>濒危物种保护</h3>
+                        <p>我们与当地社区合作，利用先进的监测技术，保护大熊猫、雪豹、海龟等旗舰物种免受偷猎和非法贸易的威胁。</p>
+                        <a href="#" class="btn btn-small">了解更多</a>
                     </div>
                 </div>
                 <div class="initiative-card">
                     <div class="initiative-img">
-                        <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="Renewable Energy">
+                        <img src="https://images.unsplash.com/photo-1516232231501-21932598379f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Sustainable agriculture">
                     </div>
                     <div class="initiative-content">
-                        <h3>Renewable Energy</h3>
-                        <p>Promoting solar, wind, and other clean energy sources to reduce dependence on fossil fuels.</p>
-                        <a href="#" class="btn">Learn More</a>
+                        <h3>可持续土地利用</h3>
+                        <p>推广生态友好型农业和渔业实践，减少对自然资源的压力，确保人类活动与生物多样性保护和谐共存。</p>
+                        <a href="#" class="btn btn-small">了解更多</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta" id="get-involved">
+    <!-- Call to Action Section -->
+    <section class="cta">
         <div class="container">
-            <h2>Join Our Global Movement</h2>
-            <p>Together, we can create a sustainable future for generations to come. Every action counts, no matter how small.</p>
-            <a href="#" class="btn">Become a Member</a>
+            <h2>立即行动，成为生命守护者</h2>
+            <p>每一个行动都至关重要。无论是捐款支持我们的项目，还是改变您的日常消费习惯，您都能为保护地球的生物多样性贡献力量。</p>
+            <a href="#" class="btn">加入我们</a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer id="contact">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Green Network</h3>
-                    <p>We are dedicated to protecting our planet through collaborative action, education, and sustainable solutions.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#initiatives">Initiatives</a></li>
-                        <li><a href="#get-involved">Get Involved</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Our Programs</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">Reforestation</a></li>
-                        <li><a href="#">Ocean Cleanup</a></li>
-                        <li><a href="#">Wildlife Protection</a></li>
-                        <li><a href="#">Climate Education</a></li>
-                        <li><a href="#">Sustainable Agriculture</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact Us</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Copper Creek Drive, New York</p>
-                    <p><i class="fas fa-phone"></i> +1 (312) 171-0771</p>
-                    <p><i class="fas fa-envelope"></i> support@greennetwork.org</p>
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-column">
+                <h3>Guardians of Life</h3>
+                <p>致力于全球生物多样性保护，确保地球生态系统的健康与可持续发展。</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-            <div class="copyright">
-                <p>&copy; 2025 Green Network. All rights reserved.</p>
+            <div class="footer-column">
+                <h3>快速链接</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#initiatives">保护行动</a></li>
+                    <li><a href="#">新闻中心</a></li>
+                </ul>
             </div>
+            <div class="footer-column">
+                <h3>支持我们</h3>
+                <ul class="footer-links">
+                    <li><a href="#">捐款</a></li>
+                    <li><a href="#">成为志愿者</a></li>
+                    <li><a href="#">企业合作</a></li>
+                    <li><a href="#">常见问题</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>联系信息</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 地球保护中心</p>
+                <p><i class="fas fa-envelope"></i> info@guardiansoflife.org</p>
+                <p><i class="fas fa-phone"></i> +86 123 4567 890</p>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2025 Guardians of Life. All rights reserved.</p>
         </div>
     </footer>
 
     <script>
-        // Mobile Menu Toggle
-        document.querySelector('.mobile-menu').addEventListener('click', function() {
-            document.querySelector('nav ul').classList.toggle('active');
+        // Simple script for mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            document.getElementById('nav-links').classList.toggle('active');
         });
 
-        // Counter Animation
-        function animateCounters() {
-            const counters = document.querySelectorAll('.counter');
-            const speed = 200; // The lower the slower
-            
-            counters.forEach(counter => {
-                const target = +counter.getAttribute('data-target');
-                const count = +counter.innerText;
-                
-                const inc = target / speed;
-                
-                if(count < target) {
-                    counter.innerText = Math.ceil(count + inc);
-                    setTimeout(animateCounters, 1);
-                } else {
-                    counter.innerText = target;
-                }
+        // Simple script for smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
             });
+        });
+
+        // Simple script for counter animation (placeholder, full implementation requires Intersection Observer)
+        function animateCounter(element, target) {
+            let count = 0;
+            const duration = 2000;
+            const step = target / (duration / 10);
+
+            const timer = setInterval(() => {
+                count += step;
+                if (count >= target) {
+                    clearInterval(timer);
+                    count = target;
+                }
+                element.textContent = Math.floor(count).toLocaleString() + (target > 1000000 ? '+' : '%');
+            }, 10);
         }
 
-        // Initialize counters when page loads
-        window.addEventListener('load', animateCounters);
+        // Placeholder for triggering the animation
+        // In a real application, this would be triggered when the element enters the viewport
+        document.addEventListener('DOMContentLoaded', () => {
+            const stats = [
+                { selector: '.stats .stat-item:nth-child(1) h3', target: 1000000 }, // 100万+
+                { selector: '.stats .stat-item:nth-child(2) h3', target: 31 }, // 31%
+                { selector: '.stats .stat-item:nth-child(3) h3', target: 60 }, // 60%
+                { selector: '.stats .stat-item:nth-child(4) h3', target: 30 }  // 30%
+            ];
 
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if(targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if(targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                    
-                    document.querySelector('nav ul').classList.remove('active');
+            stats.forEach(stat => {
+                const element = document.querySelector(stat.selector);
+                if (element) {
+                    // Set initial text to target for non-JS fallback, then animate
+                    element.textContent = stat.target.toLocaleString() + (stat.target > 1000000 ? '+' : '%');
+                    // animateCounter(element, stat.target); // Uncomment to enable animation
                 }
             });
         });
     </script>
 </body>
-
 </html>
